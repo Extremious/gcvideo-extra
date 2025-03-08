@@ -630,7 +630,6 @@ void run_mainloop(void) {
           osd_clearline(i, ATTRIB_DIM_BG);
         }
 
-        screen_irconfig(false);
         goto retry;
 
       } else if (pad_buttons & (PAD_Z | IR_LEFT)) {

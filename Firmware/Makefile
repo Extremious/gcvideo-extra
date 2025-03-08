@@ -82,7 +82,7 @@ else
 endif
 
 SRCFILES_COMMON := main.c osd.c printf.c pad.c vsync.c irrx.c \
-	spiflash.c utils.c icap.c screen_irconfig.c
+	spiflash.c utils.c icap.c
 
 SRCFILES_main := modeset_common.c screen_about.c screen_allmodes.c \
 	screen_idle.c screen_mainmenu.c screen_osdsettings.c screen_outputsettings.c \

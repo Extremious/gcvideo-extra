@@ -1,5 +1,16 @@
 # GCVideo #
 
+# This modification is designed for boards where the GCVideo menu is controlled via GameCube controller.
+
+## If your board is controlled by an IR remote and you want it anyway, then download the alternative version.
+
+### This fork adds two extra settings to the OSD menu.
+- "X Position" moves the resolution popup box horizontally
+- "Y Position" moves the resolution popup box vertically
+
+![OSD Settings menu](Firmware/doc/osd.png)
+
+
 GCVideo is a small series of FPGA boards and VHDL projects
 capable of converting the
 GameCube's Digital Video port signals to standard video signals
@@ -15,6 +26,16 @@ The schematics and layout are in the [Hardware](Hardware) directory
 and the HDL projects are in the [HDL](HDL) directory. Each directory
 should contain README.md files with further information.
 
+
+## Fork-FAQ ##
+
+1. Why does this fork remove the IR remote support?
+    There wasn't enough available RAM in the FPGA for my changes.
+    I had to remove something.
+
+1. Then how does the alternative version keep everything?
+    The alternative version keeps the IR remote support but removes some
+    informational text.
 
 ## Mini-FAQ ##
 
